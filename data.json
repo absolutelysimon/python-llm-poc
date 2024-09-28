@@ -1,0 +1,92 @@
+[
+  {
+    "itemType": "show",
+    "showType": "series",
+    "id": "296",
+    "imdbId": "tt3398228",
+    "tmdbId": "tv/61222",
+    "title": "BoJack Horseman",
+    "overview": "Meet the most beloved sitcom horse of the '90s, 20 years later. He’s a curmudgeon with a heart of...not quite gold...but something like gold. Copper?",
+    "firstAirYear": 2014,
+    "lastAirYear": 2020,
+    "originalTitle": "BoJack Horseman",
+    "genres": [
+      { "id": "animation", "name": "Animation" },
+      { "id": "comedy", "name": "Comedy" },
+      { "id": "drama", "name": "Drama" }
+    ],
+    "creators": ["Raphael Bob-Waksberg"],
+    "cast": [
+      "Will Arnett",
+      "Aaron Paul",
+      "Amy Sedaris",
+      "Alison Brie",
+      "Paul F. Tompkins",
+      "Adam Conover",
+      "Keith Olbermann"
+    ],
+    "rating": 86,
+    "seasonCount": 6,
+    "episodeCount": 76,
+    "imageSet": {
+      "verticalPoster": {
+        "w240": "https://cdn.movieofthenight.com/show/296/poster/vertical/en/240.jpg?Expires=1749510457&Signature=KbAlwGWLuThz0eUYDJBQZB4mmiPOlUlcPm6BYPIL7ktzwaeT95fLxvNq0p4BCkRuxqRyfAKOXf8P-yilVDEBY74RdN2mRNpBH2Mpwup~cQwwQfJUomXHCaaUx7FJDZG-GoN8GdmcPkJmwtHAJlWo2vyaKk~i8dLxeXCQplPDm6-iLu80EPMoLHUA0OxMhBDXQmoA~4OgYg1M0DbWDqCoLcnAj1QkSNLWgdIvyWX-kN3aTrG5Uls8UYQ04MBn6tynGZPk9utn27pc45YyWbWnhjtIu3BFW1Kv3MWzpl6Iln62vAqwHPbDok3WalSLwfuuNN8QtZXsmgKvXY8dGTLzOA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w360": "https://cdn.movieofthenight.com/show/296/poster/vertical/en/360.jpg?Expires=1749510457&Signature=HsNqK3w~zHEdJX3gXH2dFMGoKhdS-d-5DhzdK9xgKJOD3pajaqTqJAYP5FeaaSpJPSiaXqrHszJt-U7KnpcR3a0XDRnzPqQEzQte0gS-drLX1japtAeB4kcQ~ywEKlysdKyxpXfFTB7T8wPqMfIPc1a39HxeobCkqcm-wAH~tzzpMCLdWTS3xvi9f7NtfzSaHq5oco8ZZ9svrRNIvswj6CWNIgMwmV4mPf5NlNCtdYNOu24MX7P7q8gUuh-~RowQ9CecN9ntYIWsKaZgOLiBNzKDTtYB83UJZ99R~cH92nbN-AfvX1MPhkeomDjmviIAOeEigPC-OgYIyeVyyoqOOg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w480": "https://cdn.movieofthenight.com/show/296/poster/vertical/en/480.jpg?Expires=1749510457&Signature=i~JF7qK2Lh75c-JPN8DA1ZvUHBCQWdOu6FbKQgO6LyDx58lKN0H5BhD30Q7MV8Q5Efo2b3kXqfDfRgLBC3ogHIx~ugcT9es8jP0a~LPt~akOszTWQbIoT~fJ5fWPgAQrtNrnIDGsAMM8tLW~AJl8wriBll4ZfdoEso~7N9u4dZskxstYFMbP6tpuC64EB9XZ26o2r2yB-S~zUZq9C0z-mkgHL1q2th0bwy9kpS5OnQVw7aCGE6OVMDNykue9u4tZrVEj7oE4LKjL~0IYWWwGeS4JgkYS3ouo30lloRQm-W28OvUYrwy0AlXwBssKYwdj3GzCFdtxjU8sVvgVJofxww__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w600": "https://cdn.movieofthenight.com/show/296/poster/vertical/en/600.jpg?Expires=1749510457&Signature=gQm3zsAlORywkK4x6uxJyyk0XFW5IvwctKeWRoPsnRu~LojRFo~Vj39Uk-~zWW6y9ZfojQD8e0k3RdPt-oA2yHKoQWqqg~4lpmSxkXv99DjInYS~I349JaAJjoXGu4nKZarQ7Esc6hAenHUMHFmzeCXb4P1QLX2g5VYiAvx4llUG7ksYAGpDwR2b8kEU9tU9Q3jYR7lbNz9Mu86~jE0pEWmoEhyKnXlbkvmTdd7K916EX8aGHv-nZQQfCCmySdA1wEddLnX-3iXPdn4kYvuFTk0gYLPrmJHMBtyu86IREGTIfJ2HVevxlMK9fPDIvrcwF0Q20O~lOHkg4uX2Y-QUbw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w720": "https://cdn.movieofthenight.com/show/296/poster/vertical/en/720.jpg?Expires=1749510457&Signature=bo3bQNKDwlvWB4~zdr4HrjjoEAGIXLGiMOUmgL2eciq~pbiRq4tVyiG9rcowUYc7pJgRVYr~pQkva0NJCRFiSS7OYVhZGOMXx2RN8DHPS2qhlFHJvH~SqBxKfAPA3VmPOCEOKDqljD11UOSmvgJI3C5C3FemTg2roLp7hToxDU3E7pJvL0E4RO7yhNdOZXbNAA-Bliwy80B5WUSL1xkzhiosjiWlNJdKqcoZc5YSGl3OJGz8HiJ6CdmKU46mv9i~H~LOzAVWcSvHh-hJaPyUQ5IWXk7agRegNXxbwSd-IOpwSiB1xhgHDEUI44DnCV4R-~PvxDcx1PKWB5tr1HcYjA__&Key-Pair-Id=KK4HN3OO4AT5R"
+      },
+      "horizontalPoster": {
+        "w360": "https://cdn.movieofthenight.com/show/296/poster/horizontal/en/360.jpg?Expires=1749510462&Signature=L-P7kkbvYSEciqV7BQMOtpEgmlk5hgyg3zLzr5LYKwATj~ZEAdxhr5gSpC3n0Wymf5iN6tvOga2p6viLFrJ4NYcu3y-b3eagYw9K4n-01TwmN4AgiAeQ~SQ63KbXMNFJi8phqisUxoUonzDHEq8UNVbWvdLRK7OmT9RCRXCYXIdKf3s~pMOq2l5cXF6SPh8aN1uJpXmz892OOQa7F082ZMvI66~ZVLqIoUrswNUuhYMTVRk1hQrd9CnBgAlqYST2TUXV-E35PY4mzSetKCTytOcImwffM~Y6Gv3AdQ~p1bZBWbknWtHJW331gSHBAwN5qeI5vVEhyG4Hi-K-OhA8iw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w480": "https://cdn.movieofthenight.com/show/296/poster/horizontal/en/480.jpg?Expires=1749510462&Signature=Ifnv6JKzHty5KvL0VE9dHH3Cu2Eh1jgx~ByGzzXga0BH-o7z23qP72sKqrQ4AAL8Aq6UWrMZTQrgau32-9Tow89J-p25nIm6gYbguk6j8-eWavHTSDEEk~UFrfV8CpxnkiYDSVUR2J1mFlkVVONNSSSLskkcBy459x0uzCqUBPkmbeAhzOAz2ZSSXmFxhQYBAGkvjuH5RkxoWBWfD9HReUL~AkYGEtj6BRH-VFAatmYFUBUcgNkl3rtFAztRBTFdRe6SwOIhGH0n4tsf4nbNdP5WNxNP1uawmLlrrCt5Dlc17Hdo0P6o3h7k8G7nYHwr~R306mfHb3e5VLEvPX2S6g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w720": "https://cdn.movieofthenight.com/show/296/poster/horizontal/en/720.jpg?Expires=1749510462&Signature=h5QaT7~opInjji0F3nW9zA4KhOH8DAsfOqJyqWCojouN1wh8YFLlbaiv8Qy64TT1NB1MxDEoGQHgGOFaxpDhRAQZv2Bybzdlwqs7CvSWH8XEsOFrBaPg~95loMywbGqcxPlcQToEmBwcYb0bHrcKwJ98lprjz7yzLnwuE4FtJjDQK1OCnxQIWOJDE-0o9WE8QZl2vybeMNPFE3NFJdiJtrg4J-Nod3FzdUoN10iXtNmuLKoMoPtmlE9CC-HEMkb1zehDRWGNWPW90ers6zkCtnwvjQuyxnoFyFicn8dlQySWmhrqi3OPsL8J3bvQSE0p4vV1dY6~~XLbINuWPxMS2Q__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w1080": "https://cdn.movieofthenight.com/show/296/poster/horizontal/en/1080.jpg?Expires=1749510462&Signature=I0-yb~iv~-jlL~XAqMbfPjbSKuU2cG~uY5S4J~l4hYlaT05UW8Z5YridPoI1tlMrSQ2M9IndHBU~mMIbAJm8DAUkbXPYpyVoP1t6eGWC4HaTaoYVcNOY5MyJ1qa7pDrxNdRVwHiaRAXNnF2bYhheEfng7DPOBmc9BjJumlQKaX7B8CQKLaNNaRFc1rWyLWAbTS0v284-4tduEUfPLImSy5NhaQSFa571PjfCQkHLscayxSAJ2iGhqr-6hYR3dlNiQ9BA6is82XnN2rgSpQ-3i6lKZUb09yFIIi4239TFWNsjGajPJ0dzOeaCyykJQhUMmSoXRDzunFbAp7cn8bJyOA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w1440": "https://cdn.movieofthenight.com/show/296/poster/horizontal/en/1440.jpg?Expires=1749510462&Signature=f90AhankCTuH-jIruO0qPdGvmGS-WBYwQiNv9lIwvTPPUI~ly7-Xf-MqIiuHfKoi4NNj5wWDWH-OQFsPLdKyMgt1rPZqXd7DgtJfSNIsZIKMOk-32ijA0e60YXQ7bJoxhVzvgP860y4ds4Ut0jSTz8jdGZ4VGp~M6qa4orOmGABNwjpzbkDQvoH8jYDuXPe8C9zytEGZCqG60TBVZGwpQn67h0XKKRHOft6o12F0d2gzlIG30QOlztP9bSE37nwQ3r0zKBPC15GKRJcELagglz2I9AYVlExyo0QAgMsUhETydopoE--1JhfhNnZ~QziqszYo9tB52v2F9IyJRzzGJg__&Key-Pair-Id=KK4HN3OO4AT5R"
+      },
+      "horizontalBackdrop": {
+        "w360": "https://cdn.movieofthenight.com/show/296/backdrop/horizontal/360.jpg?Expires=1749510446&Signature=iTCuCCgaFSCSuJQv50MtCtA-rloIlTIa8otoiKN1LEURQCe68exsLoxuzAAlRMbZrqd21sq6c70~jG0LNY97PypSBBiCgDGVcyNSCK9~~zPmzpk9h3OwTe8So-Qrp6Kq0qNDvmMjv32MXtGss2MgHvxZY740vqnu5NYKo6FxtTVjbk7FjcJJfCd2BcK4T0vSz-RmhSHNvSVgrRVx4dEZgjUMRxj04CbKjYbHUpX-ZD3xv6VVgPKX8TwGKVA2z9B04I37Oc98dmOkM5pdBEWLWpEV3jQnnbIqhh~lkwT~RS5EufNINOIVgrOxcrd35HaxCa74s9iIRh7RpKEoRhhUVg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w480": "https://cdn.movieofthenight.com/show/296/backdrop/horizontal/480.jpg?Expires=1749510446&Signature=hZaYTwmGts8bEMuAG0Je~TqmQJNvQxnUnFleXg6V-WqWLhnnhuiNW8GctU7ndJzbtZbQlnJp3Ws47VD4MqQpp5XTAhHAxOLpAA1uXyYWrduUKlk-jhzt1SKmbiO0DgQdheEWGuyJVIlTFEo2dwgITj5YoTj33HRNRtxoWrnrcRqPt-DyOa689k9xT89FhFvNUqisAmY7Lhsm~mzjgloky2fn9reFlEt0L5A7Ob3rIqOyMj-MZ03hfrewyPU74UK1LlOLDXXUwGx3iTBTqud6qG~62~cP0iYwXQMbHvqUUCujPBIXQ513HMMj9lXl7zCqFXZbuROzDswoQL1EG3ZJng__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w720": "https://cdn.movieofthenight.com/show/296/backdrop/horizontal/720.jpg?Expires=1749510446&Signature=airpdYyp6PLa7q7I6dmm4ODspodlUouup1p1k8HbHLXMhBdg0Y8-DKerUWuOZDYKKSv66Foa4jxtbxjGfScOVPEOea9YdTl4QKLYv~mZsx-VbEiRbrrZq~VcrdlzjTdNXum6HXn6Bi1BZ9lnwhiDjJzzvWp3lfeBKT~I49ZY4iJwOtu-X2WwfH9zctDE17CaCp75kaaa-29ta-yO2BIpXIQAXDyMtiqyKg0eTZD5R-DmaESR6J~avTHJoyrgnqzyJ4JqIj1t16~mmJlvznubMWlLoMd5HeiKk~I6eUdbtkYEdiF7ba3Tdd4FOI8kNtZvskVJqvr52A2qBQgouImRQA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w1080": "https://cdn.movieofthenight.com/show/296/backdrop/horizontal/1080.jpg?Expires=1749510446&Signature=iPU0yhXB4PxNFBmOFgqOIwl1l~6Q0-HmcDI9GjmM1ZUy9Lbi~8hFvrXm4xKJQdHvaojRYQMjQXp5lYGel7m3HFL1Ww95QWX9NzVdY4G4UpVxUepZFCtUO7w7z75AsZ8SnQ4v8vC7MoULEtF0fiP05z7jqNggHI6IvH-9rINxPQhgW7oMzYkzx0iNO7f3U-6YScDJ8OpWtW3cZqfjfJrFQPdjpG1GGZSJKuS7fIGYzTMz27Labu~xQ9nDbbeCmtnGlEX0LtbWyg~tff6H2jw~euD~vGJK1toBgR4-1GeKlX2l1FydWzqz31Cqbm5K3dGQ-E0yCOWN2CdOFX9CqUGcTQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "w1440": "https://cdn.movieofthenight.com/show/296/backdrop/horizontal/1440.jpg?Expires=1749510446&Signature=Mg0PF2IbAB8v4-EdZ9jPoQtNQJeuSAYh1rqKEUgxYFqimBu2d0HkYNduMLMXAkzwrjJX-zpRPfnPOZH6NmezjjaY1EGnWVrKd2MxdYNJI~Ae7yudZbfaZnnc0wMBntbbTBkaXQxvpIy-0TeLh4zs6vYu1qodLToPui6HvTiDhlmiHM8-5GgrlCUL4fdj7pqgG57vWJytaB-AtoTIQaxiWBl6deHGKS0NHCjic2861OtWyi6nV59GHBEAnh5QqWfS4YFNHXXGq12ORIse76K-qqmJf4WHUk8kDBYK8RbzS-BFAfGx0cWnzTBvaOOLI2oKwagqRPS8plVJIdsygSzmMg__&Key-Pair-Id=KK4HN3OO4AT5R"
+      }
+    },
+    "streamingOptions": {
+      "ca": [
+        {
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "type": "subscription",
+          "link": "https://www.netflix.com/title/70300800/",
+          "videoLink": "https://www.netflix.com/watch/70300800",
+          "quality": "hd",
+          "audios": [
+            { "language": "deu" },
+            { "language": "eng" },
+            { "language": "fra" },
+            { "language": "ita" },
+            { "language": "spa" }
+          ],
+          "subtitles": [
+            { "closedCaptions": false, "locale": { "language": "deu" } },
+            { "closedCaptions": false, "locale": { "language": "eng" } },
+            { "closedCaptions": false, "locale": { "language": "fra" } },
+            { "closedCaptions": false, "locale": { "language": "ita" } },
+            { "closedCaptions": false, "locale": { "language": "spa" } }
+          ],
+          "expiresSoon": false,
+          "availableSince": 1648617277
+        }
+      ]
+    }
+  }
+]
