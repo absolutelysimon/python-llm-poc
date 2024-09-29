@@ -16,14 +16,10 @@ import json
 
 # pip install openmeteo-requests
 # pip install requests-cache
-# pip install pandas
 # pip install retry-requests
-# pip install requests
 import openmeteo_requests
 import requests_cache
-import pandas as pd
 from retry_requests import retry
-import requests
 
 # Define headers for the Streaming Availability API
 STREAMING_API_HEADERS = {
