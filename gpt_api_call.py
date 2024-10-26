@@ -2,7 +2,7 @@
 # from .gpt_api_call import call_gpt
 from ollama import Client
 
-server_ip = 'http://198.166.143.190:11434'  # GPT API Endpoint
+server_ip = 'http://gpt_api.ovcraft.com:11434'  # GPT API Endpoint
 gpt_model = 'qwen2.5-coder'  # General GPT "llama3.1"
 
 
