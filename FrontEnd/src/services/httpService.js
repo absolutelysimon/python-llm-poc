@@ -3,7 +3,7 @@ import axios from "axios";
 class HttpService {
   constructor(baseURL) {
     this.axiosInstance = axios.create({
-      baseURL: baseURL || "http://localhost:5000",
+      baseURL: baseURL || "http://127.0.0.1:5000",
       headers: {
         "Content-Type": "application/json",
       },

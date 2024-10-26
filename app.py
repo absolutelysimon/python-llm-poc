@@ -1,12 +1,17 @@
 import requests
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from gpt_api_call import call_gpt
 import functions
 from get_functions import get_list_of_functions
 
+
 app = Flask(__name__)
+cors = CORS(app)
+app.config["CORS_HEADERS"] = "Content-Type"
 
 
+@cross_origin()
 def get_function_name(input_str):
     try:
         response = call_gpt(
@@ -25,20 +30,20 @@ def get_function_name(input_str):
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
 
-@app.route('/', methods=['GET', 'POST'])
+
+@app.route("/", methods=["GET", "POST"])
 def execute_request():
     data = request.get_json()
     if not data:
-        return jsonify({'error': 'Missing input string'}), 400
+        return jsonify({"error": "Missing input string"}), 400
 
-    input_str = data['text']
+    input_str = data["text"]
     function_name = get_function_name(input_str)
-
 
     # return jsonify({'status': 'success', 'result': f"Executed {function_name}"})
 
     # functions_status = getattr(functions, function_name)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
