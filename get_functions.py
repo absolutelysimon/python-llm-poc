@@ -11,9 +11,3 @@ def get_list_of_functions():
 
     return ', '.join(map(str, list_of_functions))
 
-
-def call_function(input, function):
-    # call GPT to figure our the function to call
-    default_func = "default"
-    func = functions._execute_func(functions, default_func, "User One")
-
