@@ -8,7 +8,7 @@ import pprint
 import json
 import os
 #install python-dotenv (pip install)
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import base64
 #install requests (pip install)
 from requests import post, get

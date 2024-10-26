@@ -66,7 +66,7 @@ const ChatInterface = () => {
         ]);
         setUserInput("");
       }
-      const response = await httpService.post("/api/endpoint", {
+      const response = await httpService.post("", {
         text: finalInput,
       });
       console.log("Response from API:", response.data);

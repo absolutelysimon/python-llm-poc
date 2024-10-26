@@ -2,7 +2,6 @@ import requests
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 from gpt_api_call import call_gpt
-import functions
 from get_functions import get_list_of_functions
 
 
@@ -23,7 +22,7 @@ def get_function_name(input_str):
             For example, when you are asked to play 'BoJack' you should return play_tv_show('BoJack Horseman'). 
             The string for this request is: '{input_str}'"""
         )
-        print(response)
+
         return response
 
 
@@ -34,17 +33,15 @@ def get_function_name(input_str):
 def execute_request():
     # {'text': 'user text'}
     data = request.get_json()
-    if not data:
-        return jsonify({'error': 'Missing input string'}), 400
 
     input_str = data['text']
     function_name = get_function_name(input_str)
     print(function_name)
 
-    # functions_status = getattr(functions, function_name)
 
     # return jsonify(function_name), 200
-    return 200
+    return jsonify("Test"), 200
+
 
 if __name__ == '__main__':
     app.run(debug=True)
