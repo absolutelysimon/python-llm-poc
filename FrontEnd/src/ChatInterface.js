@@ -1,5 +1,4 @@
-// src/ChatInterface.js
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
@@ -26,15 +25,7 @@ const ChatInterface = () => {
 
   const [userInput, setUserInput] = useState("");
   const [isListening, setIsListening] = useState(listening);
-  // const [isApiCallDone, setIsApiCallDone] = useState(false);
   const [messages, setMessages] = useState([]);
-
-  // useEffect(() => {
-  //   if (isApiCallDone) {
-  //     resetInput();
-  //   }
-  //   console.log("isApiCallDone", isApiCallDone);
-  // }, [isApiCallDone]);
 
   if (!browserSupportsSpeechRecognition) {
     return (
@@ -64,34 +55,24 @@ const ChatInterface = () => {
   };
 
   const handleSendInput = async () => {
-    const finalInput = transcript || userInput;
-    if (finalInput) {
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { text: finalInput, isUser: true },
-      ]);
-      resetInput();
-    }
-    if (isListening) {
-      handleStopListening(); // Ensure listening is stopped
-    }
     try {
+      handleStopListening();
+      resetTranscript();
+      const finalInput = transcript || userInput;
+      if (finalInput) {
+        setMessages((prevMessages) => [
+          ...prevMessages,
+          { text: finalInput, isUser: true },
+        ]);
+        setUserInput("");
+      }
       const response = await httpService.post("/api/endpoint", {
         text: finalInput,
       });
       console.log("Response from API:", response.data);
-      // setIsApiCallDone(true);
-      resetInput();
-      if (isListening) {
-        handleStopListening(); // Ensure listening is stopped
-      }
     } catch (error) {
       console.error("Error sending input:", error);
-      // setIsApiCallDone(true);
       resetInput();
-      if (isListening) {
-        handleStopListening(); // Ensure listening is stopped
-      }
     }
   };
 
