@@ -2,9 +2,9 @@ import requests
 
 
 def query_llm(user_input, list_of_functions):
-    url = "https://ollama-yggo8cggoc8k55w0w05c0s85.ovcraft.com/api/chat/completions"
-    model = "qwen2.5-coder:latest"
-    token = "sk-0db19bdb96794a308fb81391d4b69063"
+    url = "https://gpt.ovcraft.com/api/chat/completions"
+    model = "Coder"
+    token = "sk-5ce2a244c6e34efab12491365bafed31"
 
     prompt = f"""You are an AI assistant whose job is to identify which functions 
                 you should call based on a natural language prompt. 
